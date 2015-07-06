@@ -44,6 +44,7 @@
                             </span>
                         </h1>
                         <a class="button button-ghost-white email" href="#email">Available For Hire</a>
+                        <div style="position:relative; width:270px; margin:0px auto; display:bock;" id="SkypeButton_Call_ksencaj_1"></div>
                         <a class="home-cta" href="#me">
                             Learn more about what I do<br>
                             <i class="fa fa-chevron-down"></i>
@@ -222,6 +223,7 @@
                                 I'm currently accepting new projects and would love to hear about yours. Please take a few minutes and tell me about it.
                             </p>
                             <a class="button button-primary email" href="">Send me an email</a>
+                            <div style="position:relative; width:270px; margin:0px auto; display:bock;" id="SkypeButton_Call_ksencaj_2"></div>
                         </div>
                     </div>
                 </div>
@@ -245,6 +247,25 @@
         <!-- Global JavaScript -->
         <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/custom.js"></script>
+        
+        <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+        <script type="text/javascript">
+          Skype.ui({
+            "name": "dropdown",
+            "element": "SkypeButton_Call_ksencaj_1",
+            "participants": ["ksencaj"],
+            "imageColor": "white",
+            "imageSize": 32
+          });
+          
+          Skype.ui({
+            "name": "dropdown",
+            "element": "SkypeButton_Call_ksencaj_2",
+            "participants": ["ksencaj"],
+            "imageColor": "white",
+            "imageSize": 32
+          });
+        </script>
         
     </body>
 </html>
